@@ -18,3 +18,10 @@ This repo will be a dev env you can copy and setup by running `vagrant up`.
 ### Running the Environment
 
 ### Running the tests
+CI
+ ```
+ echo "This has been triggered"
+cd app/
+sudo npm install
+npm test
+```

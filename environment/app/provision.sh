@@ -30,3 +30,4 @@ sudo systemctl restart nginx.service
 cd /home/ubuntu/app
 
 sudo pm2 start app.js --update-env
+
