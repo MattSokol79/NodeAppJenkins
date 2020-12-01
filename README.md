@@ -6,7 +6,7 @@ This repo will be a dev env you can copy and setup by running `vagrant up`.
 - Virtual Box
 - Vagrant
 - Ruby
-
+- Bundler (Testing)
 
 ## Instructions & Step by step
 1. Clone this repo

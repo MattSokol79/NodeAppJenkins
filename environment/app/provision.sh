@@ -17,6 +17,10 @@ sudo npm install pm2 -g
 # Install nginx
 sudo apt-get install nginx -y
 
+# Removes the old file and replace with my modified version
+sudo rm /etc/nginx/sites-available/default
+sudo cp /home/ubuntu/environment/nginx.default /etc/nginx/sites-available/default
+
 sudo systemctl restart nginx.service
 
 # DB HOST write to the .bashrc our envrionment variable
