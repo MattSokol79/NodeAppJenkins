@@ -9,4 +9,9 @@ This repo will be a dev env you can copy and setup by running `vagrant up`.
 
 
 ## Instructions & Step by step
-To be completed later
+1. Clone this repo
+2. In terminal/bash, run `vagrant up` in the folder containing Vagrantfile
+3. Go to `192.168.10.100:3000` in browser URL to see the site working 
+
+### Getting setup
+
