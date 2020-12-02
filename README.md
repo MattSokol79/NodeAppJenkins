@@ -51,4 +51,7 @@ npm test
 - Now once the `dev-env` branch pushes anything, Jenkins will automatically test the build to make sure the code still works, and once all tests pass -> Pushes to main branch
 
 **this is in the dev-env branch -> testing with jenkins**
-**Testing for Filipe**
+
+- **Testing to see commit show up in main branch:**
+
+![](commit.PNG)
