@@ -33,4 +33,22 @@ sudo npm install
 npm test
 ```
 
+### Merging with Jenkins
+- If you are working on a specific branch -> you might want to automatically test your work with Jenkins to ensure the project works as intended. 
+- Then, if all tests pass, we probably want to merge into main:
+  - Ensure the `Branches to build` -> `*/dev-env` in Jenkins so it listens to your branch, not main
+  - If tests pass e.g. 
+```bash
+cd app/
+sudo npm install
+npm test
+```
+  - `Post-build Actions` -> Choose `Git Publisher` 
+    - Push only if build succeeds
+    - Force push
+    - Branches -> `main`
+    - Target remote name -> `origin`
+- Now once the `dev-env` branch pushes anything, Jenkins will automatically test the build to make sure the code still works, and once all tests pass -> Pushes to main branch
+
 **this is in the dev-env branch -> testing with jenkins**
+**Testing for Filipe**
