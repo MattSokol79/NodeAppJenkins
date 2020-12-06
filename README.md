@@ -56,4 +56,3 @@ npm test
 
 ![](commit.PNG)
 
-### Sunday Testing jenkins
